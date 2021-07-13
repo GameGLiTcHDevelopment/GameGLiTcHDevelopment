@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/GameGLiTcHDevelopment/static/css/main.a617e044.chunk.css",
+    "main.js": "/GameGLiTcHDevelopment/static/js/main.749afb94.chunk.js",
+    "main.js.map": "/GameGLiTcHDevelopment/static/js/main.749afb94.chunk.js.map",
+    "runtime-main.js": "/GameGLiTcHDevelopment/static/js/runtime-main.f0630ffd.js",
+    "runtime-main.js.map": "/GameGLiTcHDevelopment/static/js/runtime-main.f0630ffd.js.map",
+    "static/js/2.bb8fd9df.chunk.js": "/GameGLiTcHDevelopment/static/js/2.bb8fd9df.chunk.js",
+    "static/js/2.bb8fd9df.chunk.js.map": "/GameGLiTcHDevelopment/static/js/2.bb8fd9df.chunk.js.map",
+    "static/js/3.f3bc4746.chunk.js": "/GameGLiTcHDevelopment/static/js/3.f3bc4746.chunk.js",
+    "static/js/3.f3bc4746.chunk.js.map": "/GameGLiTcHDevelopment/static/js/3.f3bc4746.chunk.js.map",
+    "index.html": "/GameGLiTcHDevelopment/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/GameGLiTcHDevelopment/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.bb8fd9df.chunk.js.LICENSE.txt": "/GameGLiTcHDevelopment/static/js/2.bb8fd9df.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/GameGLiTcHDevelopment/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0630ffd.js",
+    "static/js/2.bb8fd9df.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.749afb94.chunk.js"
+  ]
+}
