@@ -10,21 +10,21 @@ function App() {
         <nav>
           <ul id="navigation">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/GameGLiTcHDevelopment/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/GameGLiTcHDevelopment/about">About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/GameGLiTcHDevelopment/contact">Contact</Link>
             </li>
           </ul>
         </nav>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/GameGLiTcHDevelopment/">
             <Home />
           </Route>
-          <Route path="/about">
+          <Route path="/GameGLiTcHDevelopment/about">
             <About />
           </Route>
         </Switch>
