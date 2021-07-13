@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/GameGLiTcHDevelopment/static/css/main.a617e044.chunk.css",
-    "main.js": "/GameGLiTcHDevelopment/static/js/main.749afb94.chunk.js",
-    "main.js.map": "/GameGLiTcHDevelopment/static/js/main.749afb94.chunk.js.map",
-    "runtime-main.js": "/GameGLiTcHDevelopment/static/js/runtime-main.f0630ffd.js",
-    "runtime-main.js.map": "/GameGLiTcHDevelopment/static/js/runtime-main.f0630ffd.js.map",
-    "static/js/2.bb8fd9df.chunk.js": "/GameGLiTcHDevelopment/static/js/2.bb8fd9df.chunk.js",
-    "static/js/2.bb8fd9df.chunk.js.map": "/GameGLiTcHDevelopment/static/js/2.bb8fd9df.chunk.js.map",
-    "static/js/3.f3bc4746.chunk.js": "/GameGLiTcHDevelopment/static/js/3.f3bc4746.chunk.js",
-    "static/js/3.f3bc4746.chunk.js.map": "/GameGLiTcHDevelopment/static/js/3.f3bc4746.chunk.js.map",
+    "main.css": "/GameGLiTcHDevelopment/static/css/main.6640c928.chunk.css",
+    "main.js": "/GameGLiTcHDevelopment/static/js/main.1d8228bd.chunk.js",
+    "main.js.map": "/GameGLiTcHDevelopment/static/js/main.1d8228bd.chunk.js.map",
+    "runtime-main.js": "/GameGLiTcHDevelopment/static/js/runtime-main.d8265ec8.js",
+    "runtime-main.js.map": "/GameGLiTcHDevelopment/static/js/runtime-main.d8265ec8.js.map",
+    "static/js/2.d8b01693.chunk.js": "/GameGLiTcHDevelopment/static/js/2.d8b01693.chunk.js",
+    "static/js/2.d8b01693.chunk.js.map": "/GameGLiTcHDevelopment/static/js/2.d8b01693.chunk.js.map",
+    "static/js/3.0128c562.chunk.js": "/GameGLiTcHDevelopment/static/js/3.0128c562.chunk.js",
+    "static/js/3.0128c562.chunk.js.map": "/GameGLiTcHDevelopment/static/js/3.0128c562.chunk.js.map",
     "index.html": "/GameGLiTcHDevelopment/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/GameGLiTcHDevelopment/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.bb8fd9df.chunk.js.LICENSE.txt": "/GameGLiTcHDevelopment/static/js/2.bb8fd9df.chunk.js.LICENSE.txt",
+    "static/css/main.6640c928.chunk.css.map": "/GameGLiTcHDevelopment/static/css/main.6640c928.chunk.css.map",
+    "static/js/2.d8b01693.chunk.js.LICENSE.txt": "/GameGLiTcHDevelopment/static/js/2.d8b01693.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/GameGLiTcHDevelopment/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0630ffd.js",
-    "static/js/2.bb8fd9df.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.749afb94.chunk.js"
+    "static/js/runtime-main.d8265ec8.js",
+    "static/js/2.d8b01693.chunk.js",
+    "static/css/main.6640c928.chunk.css",
+    "static/js/main.1d8228bd.chunk.js"
   ]
 }
