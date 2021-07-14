@@ -33,10 +33,11 @@ function Home() {
       </header> */}
 
       <div
+        className='tutorialSections'
         style={{
           height: "95vh",
           //   margin: "2rem 0",
-          display: "flex",
+          // display: "flex",
           alignItems: "center",
           //   justifyContent: "space-between",
           //   borderRadius: "2rem",
@@ -48,12 +49,13 @@ function Home() {
         }}
       >
         <div
+          class='tutorialHeaders'
           style={{
             color: "white",
             margin: "0",
-            padding: "5rem",
+            // padding: "5rem",
             // textAlign: "left",
-            width: "50%",
+            // width: "50%",
           }}
         >
           <h1>2D Movement Tutorial</h1>
@@ -77,13 +79,13 @@ function Home() {
             More Info
           </button>
         </div>
-        <div style={{ width: "50%" }}>
+        <div class='tutorialContainers'>
           <iframe
             width='560'
             height='315'
             style={{
               width: "-webkit-fill-available",
-              maxWidth: "120rem",
+              maxWidth: "70rem",
               height: "auto",
               margin: "0 3rem",
               aspectRatio: "16/9",
@@ -115,10 +117,11 @@ function Home() {
         </div> */}
       </div>
       <div
+        className='tutorialSections'
         style={{
           height: "95vh",
           //   margin: "2rem 0",
-          display: "flex",
+          // display: "flex",
           alignItems: "center",
           //   justifyContent: "space-between",
           //   borderRadius: "2rem",
@@ -130,12 +133,13 @@ function Home() {
         }}
       >
         <div
+          class='tutorialHeaders'
           style={{
             color: "white",
             margin: "0",
-            padding: "5rem",
+            // padding: "5rem",
             // textAlign: "left",
-            width: "50%",
+            // width: "50%",
           }}
         >
           <h1>Converting 3D to 2D Tutorial</h1>
@@ -159,13 +163,13 @@ function Home() {
             More Info
           </button>
         </div>
-        <div style={{ width: "50%" }}>
+        <div class='tutorialContainers'>
           <iframe
             width='560'
             height='315'
             style={{
               width: "-webkit-fill-available",
-              maxWidth: "120rem",
+              maxWidth: "70rem",
               height: "auto",
               margin: "0 3rem",
               aspectRatio: "16/9",
@@ -197,10 +201,11 @@ function Home() {
         </div> */}
       </div>
       <div
+        className='tutorialSections'
         style={{
           height: "95vh",
           //   margin: "2rem 0",
-          display: "flex",
+          // display: "flex",
           alignItems: "center",
           //   justifyContent: "space-between",
           //   borderRadius: "2rem",
@@ -212,12 +217,13 @@ function Home() {
         }}
       >
         <div
+          class='tutorialHeaders'
           style={{
             color: "white",
             margin: "0",
-            padding: "5rem",
+            // padding: "5rem",
             // textAlign: "left",
-            width: "50%",
+            // width: "50%",
           }}
         >
           <h1>2D URP Setup Tutorial</h1>
@@ -241,13 +247,13 @@ function Home() {
             More Info
           </button>
         </div>
-        <div style={{ width: "50%" }}>
+        <div class='tutorialContainers'>
           <iframe
             width='560'
             height='315'
             style={{
               width: "-webkit-fill-available",
-              maxWidth: "120rem",
+              maxWidth: "70rem",
               height: "auto",
               margin: "0 3rem",
               aspectRatio: "16/9",
