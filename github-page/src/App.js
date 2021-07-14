@@ -10,15 +10,15 @@ function App() {
       <BrowserRouter>
         <nav>
           <ul id='navigation'>
-            <li>
+            <li className='item-a'>
               <Link to='/GameGLiTcHDevelopment/' className='leadNav'>
                 GameGLiTcH
               </Link>
             </li>
-            <li>
+            <li className='item-b'>
               <Link to='/GameGLiTcHDevelopment/'>Home</Link>
             </li>
-            <li>
+            <li className='item-c'>
               <Link to='/GameGLiTcHDevelopment/about'>About</Link>
             </li>
             {/* <li>

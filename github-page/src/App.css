@@ -40,7 +40,8 @@ nav ul a {
     height: auto;
     align-items: center;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     /* justify-content: space-around; */
   }
   nav ul a {
@@ -49,6 +50,17 @@ nav ul a {
     font-size: 1.5rem;
     font-weight: 500;
   }
+  .item-a {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+  }
+  .item-b,
+  .item-c {
+    margin: 0.4rem;
+  }
+  /* .item-c {
+    
+  } */
 }
 
 .leadNav {
