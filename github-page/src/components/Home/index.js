@@ -1,4 +1,7 @@
-import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
+import React, {
+  useEffect,
+  // useLayoutEffect, useRef, useState
+} from "react";
 // import logo from "../../logo.svg";
 
 function Home() {
@@ -33,7 +36,7 @@ function Home() {
       </header> */}
 
       <div className='tutorialSections secondary-color'>
-        <div class='tutorialText'>
+        <div className='tutorialText'>
           <h1>2D Movement Tutorial</h1>
           <h2>
             Please check out this tutorial if you want to know the ins and out
@@ -41,7 +44,7 @@ function Home() {
           </h2>
           <button className='primary-color effect effect-3'>More Info</button>
         </div>
-        <div class='tutorialVideos'>
+        <div className='tutorialVideos'>
           <iframe
             width='560'
             height='315'
@@ -54,7 +57,7 @@ function Home() {
         </div>
       </div>
       <div className='tutorialSections primary-color'>
-        <div class='tutorialText'>
+        <div className='tutorialText'>
           <h1>Converting 3D to 2D Tutorial</h1>
           <h2>
             Ever wondered how to turn a 3D model into a 2D sprite? Check out
@@ -62,7 +65,7 @@ function Home() {
           </h2>
           <button className='third-color effect effect-3'>More Info</button>
         </div>
-        <div class='tutorialVideos'>
+        <div className='tutorialVideos'>
           <iframe
             width='560'
             height='315'
@@ -75,7 +78,7 @@ function Home() {
         </div>
       </div>
       <div className='tutorialSections third-color'>
-        <div class='tutorialText'>
+        <div className='tutorialText'>
           <h1>2D URP Setup Tutorial</h1>
           <h2>
             Set up your first 2D project using the Universal Render Pipeline
@@ -83,7 +86,7 @@ function Home() {
           </h2>
           <button className='secondary-color effect effect-3'>More Info</button>
         </div>
-        <div class='tutorialVideos'>
+        <div className='tutorialVideos'>
           <iframe
             width='560'
             height='315'

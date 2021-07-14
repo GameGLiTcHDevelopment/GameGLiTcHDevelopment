@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "./about.css";
-import channellogo from "../../EndImage.png";
+import channellogo from "../../ChannelLogo.png";
 
 function Example() {
   // Declare a new state variable, which we'll call "count"
@@ -31,7 +31,7 @@ function Example() {
       }
     >
       <div className='aboutSection'>
-        <img src={channellogo} alt='image' className='aboutImage' />
+        <img src={channellogo} alt='' className='aboutImage' />
         <div className='aboutText'>
           <h1>About GameGLiTcH Development</h1>
           <h2>

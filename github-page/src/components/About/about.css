@@ -3,7 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #40b0d6;
+  /* background: #40b0d6; */
+  background: var(--primary-color);
 }
 .aboutImage {
   height: 100%;
@@ -26,7 +27,7 @@
 @media only screen and (max-width: 1700px) {
   .aboutSection {
     height: auto;
-    background: #60a8d3;
+    /* background: #60a8d3; */
   }
   .aboutImage {
     display: none;
