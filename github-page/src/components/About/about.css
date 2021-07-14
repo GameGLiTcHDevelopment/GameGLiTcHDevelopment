@@ -1,0 +1,45 @@
+.aboutSection {
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #40b0d6;
+}
+.aboutImage {
+  height: 100%;
+}
+
+.aboutText {
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5rem;
+}
+.aboutText h1 {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+.aboutText h2 {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 1700px) {
+  .aboutSection {
+    height: auto;
+    background: #60a8d3;
+  }
+  .aboutImage {
+    display: none;
+  }
+  .aboutText {
+    width: auto;
+    padding: 0 2rem;
+    margin: 4rem 0;
+  }
+  .aboutText h1 {
+    font-size: calc(0.9rem + 2vmin);
+  }
+  .aboutText h2 {
+    font-size: calc(0.7rem + 2vmin);
+  }
+}

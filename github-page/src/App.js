@@ -11,10 +11,7 @@ function App() {
         <nav>
           <ul id='navigation'>
             <li>
-              <Link
-                to='/GameGLiTcHDevelopment/'
-                style={{ fontSize: "1.8rem", fontWeight: "900" }}
-              >
+              <Link to='/GameGLiTcHDevelopment/' className='leadNav'>
                 GameGLiTcH
               </Link>
             </li>

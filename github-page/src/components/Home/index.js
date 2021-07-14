@@ -32,69 +32,19 @@ function Home() {
         </a>
       </header> */}
 
-      <div
-        className='tutorialSections'
-        style={{
-          height: "95vh",
-          //   margin: "2rem 0",
-          // display: "flex",
-          alignItems: "center",
-          //   justifyContent: "space-between",
-          //   borderRadius: "2rem",
-          background: "var(--secondary-color)",
-          //   alignItems: "center",
-          //   transform: `translateX(${show.itemThree ? "0" : "-100vw"})`,
-          // transform: "translateX(0vw)",
-          // transition: "transform 1s",
-        }}
-      >
-        <div
-          class='tutorialHeaders'
-          style={{
-            color: "white",
-            margin: "0",
-            // padding: "5rem",
-            // textAlign: "left",
-            // width: "50%",
-          }}
-        >
+      <div className='tutorialSections secondary-color'>
+        <div class='tutorialText'>
           <h1>2D Movement Tutorial</h1>
           <h2>
             Please check out this tutorial if you want to know the ins and out
             of movement in Unity.
           </h2>
-          <button
-            style={{
-              backgroundColor: "var(--primary-color)",
-              padding: "1rem 4rem",
-              fontSize: "1.4rem",
-              marginTop: "1rem",
-              fontFamily: "system-ui",
-              fontWeight: "500",
-              color: "white",
-              border: "none",
-              borderRadius: "1rem",
-            }}
-          >
-            More Info
-          </button>
+          <button className='primary-color effect effect-3'>More Info</button>
         </div>
-        <div class='tutorialContainers'>
+        <div class='tutorialVideos'>
           <iframe
             width='560'
             height='315'
-            style={{
-              width: "-webkit-fill-available",
-              maxWidth: "70rem",
-              height: "auto",
-              margin: "0 3rem",
-              aspectRatio: "16/9",
-              borderColor: "lightyellow",
-              //   borderWidth: "14px",
-              borderStyle: "solid",
-              borderRadius: "1rem",
-              borderWidth: "4px",
-            }}
             src='https://www.youtube.com/embed/fcKGqxUuENk'
             title='YouTube video player'
             frameBorder='10'
@@ -102,83 +52,20 @@ function Home() {
             allowFullScreen
           ></iframe>
         </div>
-        {/* <div
-          style={{
-            // height: "50vh",
-            margin: "2rem 0",
-            display: "flex",
-            // justifyContent: "flex-end",
-            borderRadius: "2rem",
-            // background: "black",
-            alignItems: "center",
-          }}
-        >
-
-        </div> */}
       </div>
-      <div
-        className='tutorialSections'
-        style={{
-          height: "95vh",
-          //   margin: "2rem 0",
-          // display: "flex",
-          alignItems: "center",
-          //   justifyContent: "space-between",
-          //   borderRadius: "2rem",
-          background: "var(--primary-color)",
-          //   alignItems: "center",
-          //   transform: `translateX(${show.itemTwo ? "0" : "-100vw"})`,
-          // transform: "translateX(0vw)",
-          // transition: "transform 1s",
-        }}
-      >
-        <div
-          class='tutorialHeaders'
-          style={{
-            color: "white",
-            margin: "0",
-            // padding: "5rem",
-            // textAlign: "left",
-            // width: "50%",
-          }}
-        >
+      <div className='tutorialSections primary-color'>
+        <div class='tutorialText'>
           <h1>Converting 3D to 2D Tutorial</h1>
           <h2>
             Ever wondered how to turn a 3D model into a 2D sprite? Check out
             this tutorial.
           </h2>
-          <button
-            style={{
-              backgroundColor: "var(--third-color)",
-              padding: "1rem 4rem",
-              fontSize: "1.4rem",
-              marginTop: "1rem",
-              fontFamily: "system-ui",
-              fontWeight: "500",
-              color: "white",
-              border: "none",
-              borderRadius: "1rem",
-            }}
-          >
-            More Info
-          </button>
+          <button className='third-color effect effect-3'>More Info</button>
         </div>
-        <div class='tutorialContainers'>
+        <div class='tutorialVideos'>
           <iframe
             width='560'
             height='315'
-            style={{
-              width: "-webkit-fill-available",
-              maxWidth: "70rem",
-              height: "auto",
-              margin: "0 3rem",
-              aspectRatio: "16/9",
-              borderColor: "lightyellow",
-              //   borderWidth: "14px",
-              borderStyle: "solid",
-              borderRadius: "1rem",
-              borderWidth: "4px",
-            }}
             src='https://www.youtube.com/embed/kALXAWSDYEo'
             title='YouTube video player'
             frameBorder='10'
@@ -186,83 +73,20 @@ function Home() {
             allowFullScreen
           ></iframe>
         </div>
-        {/* <div
-          style={{
-            // height: "50vh",
-            margin: "2rem 0",
-            display: "flex",
-            // justifyContent: "flex-end",
-            borderRadius: "2rem",
-            // background: "black",
-            alignItems: "center",
-          }}
-        >
-
-        </div> */}
       </div>
-      <div
-        className='tutorialSections'
-        style={{
-          height: "95vh",
-          //   margin: "2rem 0",
-          // display: "flex",
-          alignItems: "center",
-          //   justifyContent: "space-between",
-          //   borderRadius: "2rem",
-          background: "var(--third-color)",
-          //   alignItems: "center",
-          //   transform: `translateX(${show.itemOne ? "0" : "-100vw"})`,
-          // transform: "translateX(0vw)",
-          // transition: "transform 1s",
-        }}
-      >
-        <div
-          class='tutorialHeaders'
-          style={{
-            color: "white",
-            margin: "0",
-            // padding: "5rem",
-            // textAlign: "left",
-            // width: "50%",
-          }}
-        >
+      <div className='tutorialSections third-color'>
+        <div class='tutorialText'>
           <h1>2D URP Setup Tutorial</h1>
           <h2>
             Set up your first 2D project using the Universal Render Pipeline
             with this step-by-step tutorial.
           </h2>
-          <button
-            style={{
-              backgroundColor: "var(--secondary-color)",
-              padding: "1rem 4rem",
-              fontSize: "1.4rem",
-              marginTop: "1rem",
-              fontFamily: "system-ui",
-              fontWeight: "500",
-              color: "white",
-              border: "none",
-              borderRadius: "1rem",
-            }}
-          >
-            More Info
-          </button>
+          <button className='secondary-color effect effect-3'>More Info</button>
         </div>
-        <div class='tutorialContainers'>
+        <div class='tutorialVideos'>
           <iframe
             width='560'
             height='315'
-            style={{
-              width: "-webkit-fill-available",
-              maxWidth: "70rem",
-              height: "auto",
-              margin: "0 3rem",
-              aspectRatio: "16/9",
-              borderColor: "lightyellow",
-              //   borderWidth: "14px",
-              borderStyle: "solid",
-              borderRadius: "1rem",
-              borderWidth: "4px",
-            }}
             src='https://www.youtube.com/embed/qSCCQPeeuTo'
             title='YouTube video player'
             frameBorder='10'
@@ -270,19 +94,6 @@ function Home() {
             allowFullScreen
           ></iframe>
         </div>
-        {/* <div
-          style={{
-            // height: "50vh",
-            margin: "2rem 0",
-            display: "flex",
-            // justifyContent: "flex-end",
-            borderRadius: "2rem",
-            // background: "black",
-            alignItems: "center",
-          }}
-        >
-
-        </div> */}
       </div>
     </div>
   );

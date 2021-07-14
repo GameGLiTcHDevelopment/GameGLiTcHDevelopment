@@ -30,36 +30,11 @@ function Example() {
         }
       }
     >
-      <div
-        className='section'
-        style={{
-          height: "95vh",
-          //   margin: "2rem 0",
-          display: "flex",
-          alignItems: "center",
-          //   justifyContent: "space-between",
-          //   borderRadius: "2rem",
-          background: "#40b0d6",
-          // backgroundImage: `url(${channellogo})`,
-          //   alignItems: "center",
-          //   transform: `translateX(${show.itemOne ? "0" : "-100vw"})`,
-          //   transition: "transform 1s",
-        }}
-      >
-        <img src={channellogo} alt='image' style={{ height: "100%" }} />
-        <div
-          style={{
-            width: "50%",
-            color: "white",
-            textAlign: "center",
-            margin: "0",
-            padding: "5rem",
-          }}
-        >
-          <h1 style={{ fontSize: "4rem", textDecoration: "underline" }}>
-            About GameGLiTcH Development
-          </h1>
-          <h2 style={{ fontSize: "2rem" }}>
+      <div className='aboutSection'>
+        <img src={channellogo} alt='image' className='aboutImage' />
+        <div className='aboutText'>
+          <h1>About GameGLiTcH Development</h1>
+          <h2>
             Game Glitch Development is dedicated to providing you the most
             in-depth tutorials. Whether you want to be a full time indie game
             developer or are just wanting to make games in your spare time. Just
