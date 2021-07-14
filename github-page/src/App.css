@@ -119,13 +119,18 @@ iframe {
   border-radius: 1rem;
   border-width: 4px;
 }
+@media only screen and (max-width: 1700px) {
+  iframe {
+    height: 38rem;
+  }
+}
 @media only screen and (max-width: 750px) {
   button {
     font-size: 1.2rem;
   }
-  /* iframe {
-    margin: 0 0.5rem;
-  } */
+  iframe {
+    height: auto;
+  }
 }
 /*********************************************************************************Custom Classes************************************************************/
 .tutorialSections {
