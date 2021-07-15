@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import "./about.css";
-import channellogo from "../../ChannelLogo.png";
+// import channellogo from "../../ChannelLogo.png";
+import { ReactComponent as Logo } from "../../ChannelLogo.svg";
 
 function Example() {
   // Declare a new state variable, which we'll call "count"
@@ -22,16 +22,17 @@ function Example() {
     //   <button onClick={() => setCount(count + 1)}>Click me</button>
     // </div>
     <div
-      style={
-        {
-          // height: "95vh",
-          // scrollSnapType: "y mandatory",
-          // overflowY: "scroll",
-        }
-      }
+    // style={
+    //   {
+    //     height: "95vh",
+    //     scrollSnapType: "y mandatory",
+    //     overflowY: "scroll",
+    //   }
+    // }
     >
       <div className='aboutSection'>
-        <img src={channellogo} alt='' className='aboutImage' />
+        <Logo className='aboutImage' />
+        {/* <img src={channellogo} alt='' className='aboutImage' /> */}
         <div className='aboutText'>
           <h1>About GameGLiTcH Development</h1>
           <h2>
