@@ -217,7 +217,7 @@ iframe {
 }
 .aboutText h1 {
   font-size: 4rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .aboutText h2 {
   font-size: 2rem;
