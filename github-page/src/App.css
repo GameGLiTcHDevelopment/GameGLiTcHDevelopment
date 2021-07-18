@@ -395,7 +395,7 @@ iframe {
     border-radius: 0;
   }
   .modal-bg {
-    top: 5vh;
+    top: 3vh;
   }
 }
 @media (orientation: landscape) and (max-width: 750px) {
