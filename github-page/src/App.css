@@ -307,6 +307,7 @@ iframe {
   min-width: 18rem;
   height: 65%;
   border-radius: 1rem;
+  overflow: auto;
   /* display: flex;
   justify-content: space-around;
   align-items: center;
@@ -324,19 +325,30 @@ iframe {
   padding: 1em;
 }
 .modal-cards {
-  font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono,
-    Menlo, monospace;
+  /* font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono,
+    Menlo, monospace; */
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.05); */
   border-radius: 1rem;
   font-size: 1.2rem;
   /* padding: 1em; */
-  margin: 0.5rem 1rem;
+  margin: 1rem;
   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+.modal-cards ul {
+  text-align: left;
+  line-height: 24px;
+  padding: 0 4rem;
+}
+.modal-cards img {
+  width: 35%;
+  border-radius: 1rem;
 }
 .modal-cards-header {
   padding: 1rem;
   text-align: left;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Consolas, Liberation Mono,
+    Menlo, monospace;
 }
 .modal-empty-text {
   padding: 1rem;
@@ -344,7 +356,7 @@ iframe {
   font-weight: 300;
 }
 .code-block[data-code-marker="codeLine"] {
-  padding-left: 1rem;
+  padding: 0 1rem;
 }
 .code-block[data-code-marker="-"]:before {
   content: attr(data-code-marker);
@@ -361,6 +373,9 @@ iframe {
   margin: 1rem; */
   padding: 1rem;
 }
+.code-block-container td {
+  vertical-align: baseline;
+}
 @media only screen and (max-width: 750px) {
   .modal-cards {
     font-size: 1rem;
@@ -371,5 +386,20 @@ iframe {
   .modal-header {
     padding: 0.8rem;
     font-size: 1.5rem;
+  }
+  .code-block[data-code-marker="codeLine"] {
+    padding: 0;
+  }
+  .modal-cards img {
+    width: 100%;
+    border-radius: 0;
+  }
+  .modal-bg {
+    top: 5vh;
+  }
+}
+@media (orientation: landscape) and (max-width: 750px) {
+  .modal-bg {
+    top: 14vh;
   }
 }
