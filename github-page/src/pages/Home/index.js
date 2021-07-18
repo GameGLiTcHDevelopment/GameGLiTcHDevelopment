@@ -1,7 +1,9 @@
 import React, {
   useEffect,
-  // useLayoutEffect, useRef, useState
+  useState,
+  // useLayoutEffect, useRef
 } from "react";
+import { Modal } from "../../components/modal";
 import { tutorialData } from "../../data/tutorialData";
 // import logo from "../../logo.svg";
 
@@ -10,6 +12,7 @@ function Home() {
     // Update the document title using the browser API
     document.title = `Home`;
   });
+  const [activeIndex, setActiveIndex] = useState(null);
 
   return (
     <div
@@ -35,13 +38,16 @@ function Home() {
           Learn React
         </a>
       </header> */}
-      {tutorialData.map((data, key) => {
+      {tutorialData.map((data, index) => {
         return (
-          <div className={`tutorialSections ${data.color}`} key={key}>
+          <div className={`tutorialSections ${data.color}`} key={index}>
             <div className='tutorialText'>
               <h1>{data.header}</h1>
               <h2>{data.text}</h2>
-              <button className={`${data.buttonColor} effect effect-3`}>
+              <button
+                className={`${data.buttonColor} effect effect-3 modal-btn`}
+                onClick={() => setActiveIndex(index)}
+              >
                 More Info
               </button>
             </div>
@@ -56,6 +62,11 @@ function Home() {
                 allowFullScreen
               ></iframe>
             </div>
+            <Modal
+              activeIndex={activeIndex}
+              index={index}
+              onClick={() => setActiveIndex(null)}
+            />
           </div>
         );
       })}
