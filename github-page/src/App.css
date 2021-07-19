@@ -2,7 +2,7 @@
   --primary-color: #5fa8d3;
   --secondary-color: #ffcb47;
   --third-color: #ca2e55;
-  --code-add-begin: #2ea04366;
+  --code-add: #2ea04366;
   --code-add-middle: #2ea04342;
   --code-subtract: #f8514966;
 }
@@ -358,11 +358,28 @@ iframe {
 .code-block[data-code-marker="codeLine"] {
   padding: 0 1rem;
 }
+.code-block[data-code-marker="subtract"] {
+  padding: 0 1rem;
+  background: var(--code-subtract);
+}
+.code-block[data-code-marker="add"] {
+  padding: 0 1rem;
+  background: var(--code-add);
+}
+.code-block[data-code-marker="-"] {
+  background: var(--code-subtract);
+}
 .code-block[data-code-marker="-"]:before {
   content: attr(data-code-marker);
   padding: 8px;
 }
-
+.code-block[data-code-marker="+"] {
+  background: var(--code-add);
+}
+.code-block[data-code-marker="+"]:before {
+  content: attr(data-code-marker);
+  padding: 8px;
+}
 .code-block-container {
   background: #0d1117;
   color: white;
@@ -396,6 +413,9 @@ iframe {
   }
   .modal-bg {
     top: 3vh;
+  }
+  .code-block-container tr td:nth-child(3) {
+    display: none;
   }
 }
 @media (orientation: landscape) and (max-width: 750px) {

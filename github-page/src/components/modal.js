@@ -39,54 +39,36 @@ export function Modal({ activeIndex, index, onClick }) {
                       <React.Fragment key={dataIndex}>
                         <tr>
                           <td>
-                            <code
-                              className='code-block'
-                              style={{
-                                background:
-                                  type[dataIndex] === "-"
-                                    ? "#f8514966"
-                                    : "black",
-                              }}
-                              data-code-marker=''
-                            />
+                            <code className='code-block' />
                           </td>
                           <td>
                             <code
                               className='code-block'
-                              style={{ background: "var(--code-middle)" }}
                               data-code-marker='codeLine'
                             >
                               {data}
                             </code>
                           </td>
+                          <td>//Original Code</td>
                         </tr>
                         <tr>
                           <td>
                             <code
                               className='code-block'
-                              style={{
-                                background:
-                                  type[dataIndex] === "-"
-                                    ? "#f8514966"
-                                    : "black",
-                              }}
-                              data-code-marker='-'
+                              data-code-marker={type[dataIndex]}
                             ></code>
                           </td>
                           <td>
                             <code
                               className='code-block'
-                              style={{
-                                background:
-                                  type[dataIndex] === "-"
-                                    ? "#f8514966"
-                                    : "black",
-                              }}
-                              data-code-marker='codeLine'
+                              data-code-marker={
+                                type[dataIndex] === "-" ? "subtract" : "add"
+                              }
                             >
                               {newCode[dataIndex]}
                             </code>
                           </td>
+                          <td>//New Code</td>
                         </tr>
                       </React.Fragment>
                     );

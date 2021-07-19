@@ -48,7 +48,7 @@ function Home() {
                 className={`${data.buttonColor} effect effect-3 modal-btn`}
                 onClick={() => setActiveIndex(index)}
               >
-                More Info
+                Updates
               </button>
             </div>
             <div className='tutorialVideos'>
