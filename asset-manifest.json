@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GameGLiTcHDevelopment/static/css/main.35138969.chunk.css",
-    "main.js": "/GameGLiTcHDevelopment/static/js/main.89dff325.chunk.js",
-    "main.js.map": "/GameGLiTcHDevelopment/static/js/main.89dff325.chunk.js.map",
+    "main.css": "/GameGLiTcHDevelopment/static/css/main.13ba861f.chunk.css",
+    "main.js": "/GameGLiTcHDevelopment/static/js/main.e06207d2.chunk.js",
+    "main.js.map": "/GameGLiTcHDevelopment/static/js/main.e06207d2.chunk.js.map",
     "runtime-main.js": "/GameGLiTcHDevelopment/static/js/runtime-main.0940a3fa.js",
     "runtime-main.js.map": "/GameGLiTcHDevelopment/static/js/runtime-main.0940a3fa.js.map",
     "static/js/2.b13b2ff4.chunk.js": "/GameGLiTcHDevelopment/static/js/2.b13b2ff4.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.7746b7b3.chunk.js": "/GameGLiTcHDevelopment/static/js/3.7746b7b3.chunk.js",
     "static/js/3.7746b7b3.chunk.js.map": "/GameGLiTcHDevelopment/static/js/3.7746b7b3.chunk.js.map",
     "index.html": "/GameGLiTcHDevelopment/index.html",
-    "static/css/main.35138969.chunk.css.map": "/GameGLiTcHDevelopment/static/css/main.35138969.chunk.css.map",
+    "static/css/main.13ba861f.chunk.css.map": "/GameGLiTcHDevelopment/static/css/main.13ba861f.chunk.css.map",
     "static/js/2.b13b2ff4.chunk.js.LICENSE.txt": "/GameGLiTcHDevelopment/static/js/2.b13b2ff4.chunk.js.LICENSE.txt",
     "static/media/ChannelLogo.15d11b14.svg": "/GameGLiTcHDevelopment/static/media/ChannelLogo.15d11b14.svg",
     "static/media/MovementCorrection.38304c19.png": "/GameGLiTcHDevelopment/static/media/MovementCorrection.38304c19.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.0940a3fa.js",
     "static/js/2.b13b2ff4.chunk.js",
-    "static/css/main.35138969.chunk.css",
-    "static/js/main.89dff325.chunk.js"
+    "static/css/main.13ba861f.chunk.css",
+    "static/js/main.e06207d2.chunk.js"
   ]
 }
