@@ -16,13 +16,6 @@ export function Modal({ activeIndex, index, onClick }) {
         {codeData[index] ? (
           <div className='modal-cards'>
             <div className='modal-cards-header'>Last Updated {lastUpdated}</div>
-
-            <ul>
-              <li>
-                Some slight changes needed to be made in the movement table
-              </li>
-            </ul>
-            <img src={movementTable} alt='' />
             <ul>
               <li>
                 For velocity and addforce methods the Time.deltaTime is already
@@ -49,7 +42,7 @@ export function Modal({ activeIndex, index, onClick }) {
                               {data}
                             </code>
                           </td>
-                          <td>//Original Code</td>
+                          <td>{"// Original Code"}</td>
                         </tr>
                         <tr>
                           <td>
@@ -68,7 +61,7 @@ export function Modal({ activeIndex, index, onClick }) {
                               {newCode[dataIndex]}
                             </code>
                           </td>
-                          <td>//New Code</td>
+                          <td>{"// New Code"}</td>
                         </tr>
                       </React.Fragment>
                     );
@@ -76,6 +69,12 @@ export function Modal({ activeIndex, index, onClick }) {
                 </tbody>
               </table>
             </div>
+            <ul>
+              <li>
+                Some slight changes needed to be made in the movement table
+              </li>
+            </ul>
+            <img src={movementTable} alt='' />
           </div>
         ) : (
           <div className='modal-empty-text'>Nothing to see here</div>

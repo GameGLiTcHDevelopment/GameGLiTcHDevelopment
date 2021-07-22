@@ -342,6 +342,7 @@ iframe {
 .modal-cards img {
   width: 35%;
   border-radius: 1rem;
+  margin: 1rem;
 }
 .modal-cards-header {
   padding: 1rem;
@@ -384,10 +385,10 @@ iframe {
   background: #0d1117;
   color: white;
   text-align: left;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  /* border-radius: 0.5rem;
-  margin: 1rem; */
+  /* border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; */
+  /* border-radius: 0.5rem; */
+  margin: 1rem 2rem;
   padding: 1rem;
 }
 .code-block-container td {
@@ -408,11 +409,15 @@ iframe {
     padding: 0;
   }
   .modal-cards img {
-    width: 100%;
-    border-radius: 0;
+    width: 85%;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
   }
   .modal-bg {
     top: 3vh;
+  }
+  .code-block-container {
+    margin: 0;
   }
   .code-block-container tr td:nth-child(3) {
     display: none;
